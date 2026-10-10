@@ -1,0 +1,37 @@
+feature,area,priority,original,clone,notes
+Inscription pro (email ou Google),onboarding,must,yes,no,
+Fiche établissement (adresse fuseau horaire devise),onboarding,must,yes,no,
+Catalogue de services (catégorie durée prix),services,must,yes,no,
+Membres d'équipe et services qu'ils font,team,must,yes,no,
+Horaires de travail et congés par membre,team,must,yes,no,
+Page de réservation publique par lien,booking page,must,yes,no,
+Réserver sans compte ou avec compte client léger,booking page,must,yes,no,
+Choix du pro ou sans préférence,booking page,must,yes,no,
+Créneaux calculés selon horaires services et RDV existants,booking page,must,yes,no,
+Aucune double réservation d'un même pro,booking page,must,yes,no,contrainte en base
+Agenda pro jour et semaine par membre,calendar,must,yes,no,
+Créer modifier déplacer un RDV depuis l'agenda,calendar,must,yes,no,
+Emails de confirmation et de rappel,notifications,must,yes,no,
+Client annule ou replanifie via un lien,booking page,must,yes,no,
+Plusieurs services dans une même réservation,booking page,should,yes,no,
+Acompte à la réservation,payments,should,yes,no,source help center paiements
+Capture de carte et frais d'annulation ou no-show,payments,should,yes,no,
+Politique ciblée par service ou groupe de clients,payments,should,yes,no,
+Fiche client avec historique et notes,clients,should,yes,no,
+Encaissement après prestation (checkout),payments,should,yes,no,
+Pourboires,payments,should,yes,no,
+Rappels SMS,notifications,should,yes,no,
+Statuts de RDV (arrivé terminé no-show),calendar,should,yes,no,
+Rapports ventes et RDV,reports,should,yes,no,
+Liste d'attente,booking page,could,yes,no,
+Ressources (salles ou équipements),calendar,could,yes,no,
+RDV de groupe,calendar,could,yes,no,
+Cartes cadeaux,payments,could,yes,no,
+Vente de produits et inventaire,payments,could,yes,no,
+Adhésions et forfaits,payments,could,yes,no,
+Automatisations marketing et fidélité,marketing,could,yes,no,
+Réservation depuis Google Instagram et Facebook,integrations,could,yes,no,
+Marketplace grand public de Fresha,marketplace,could,yes,skip,leur réseau de clients n'est pas une fonctionnalité reconstruisible
+Fresha Payments comme processeur,payments,could,yes,skip,remplacé par Stripe
+Terminaux de paiement matériels,payments,could,yes,skip,hardware ; Stripe Terminal plus tard si besoin
+Financement et services financiers,finance,could,yes,skip,service réglementé
